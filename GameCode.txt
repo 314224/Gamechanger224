@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Zone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1e1e2f;
+            color: #fff;
+        }
+        header {
+            background-color: #27293d;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #61dafb;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .game {
+            margin: 20px;
+            padding: 10px;
+            background: #2b2d42;
+            border-radius: 10px;
+            display: inline-block;
+            width: 200px;
+        }
+        .game img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .game h3 {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #27293d;
+            padding: 10px;
+            text-align: center;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Gaming Zone</h1>
+        <nav>
+            <a href="#games">Games</a>
+            <a href="#news">News</a>
+            <a href="#community">Community</a>
+        </nav>
+    </header>
+
+    <div class="content" id="games">
+        <h2>Featured Games</h2>
+        <div class="game">
+            <img src="https://via.placeholder.com/200" alt="Game 1">
+            <h3>Game Title 1</h3>
+            <p>Explore an epic adventure.</p>
+        </div>
+        <div class="game">
+            <img src="https://via.placeholder.com/200" alt="Game 2">
+            <h3>Game Title 2</h3>
+            <p>Battle your way to glory.</p>
+        </div>
+        <div class="game">
+            <img src="https://via.placeholder.com/200" alt="Game 3">
+            <h3>Game Title 3</h3>
+            <p>Build your dream world.</p>
+        </div>
+    </div>
+
+    <div class="content" id="news">
+        <h2>Latest Gaming News</h2>
+        <p>Stay tuned for the hottest updates in the gaming world!</p>
+    </div>
+
+    <div class="content" id="community">
+        <h2>Join Our Community</h2>
+        <p>Connect with gamers worldwide and share your experiences.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Gaming Zone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
